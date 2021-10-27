@@ -37,6 +37,7 @@ function App() {
      
         <ContainerPokemons>
           {Object.values(initialPokemons).map((e) => {  
+            // test commit
             return(
               loading ? (
                 <SkelotonScreen />
