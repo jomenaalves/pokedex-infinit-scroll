@@ -6,7 +6,7 @@ const NetflixLoader = props => {
   // const { rows, columns, coverHeight, coverWidth, padding, speed } = props;
 
   // Hardcoded values
-  const rows = 3
+  const rows = 6
   const columns = 5
   const coverHeight = 211
   const coverWidth = 180 
@@ -23,8 +23,6 @@ const NetflixLoader = props => {
       speed={speed}
       width={columns * coverWidthWithPadding}
       height={rows * coverHeightWithPadding}
-      primaryColor="#242b34"
-      secondaryColor="#343d4c"
       {...props}
     >
 

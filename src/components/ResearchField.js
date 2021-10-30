@@ -11,6 +11,7 @@ const SearchContent = styled.div`
     font-family: 'Poppins';
     letter-spacing: .2px;
     color: #212121;
+    line-height: 5px;
   }
 
   .container{
