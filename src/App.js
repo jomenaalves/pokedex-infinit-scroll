@@ -2,7 +2,6 @@ import React, { Fragment, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import SkelotonScreen from "./components/SkeletonScreen";
 import Header from "./components/Header";
-import ResearchField from "./components/ResearchField";
 import Pokemon from './components/Pokemons';
 
 const ContainerLoader = styled.div`
@@ -105,8 +104,6 @@ function App() {
   return (  
       <Fragment>
        <Header />
-       <ResearchField />
-       
        <ContainerPokemon>
           {loading ? (
             <ContainerLoader>
